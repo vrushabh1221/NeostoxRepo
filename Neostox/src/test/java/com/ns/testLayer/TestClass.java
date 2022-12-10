@@ -10,6 +10,7 @@ public class TestClass extends TestBaseClass{
 	public void test1()
 	{
 		System.out.println("Ram Krushna Hari");
+		System.out.println("Jay Gajanan");
 	}
 
 }
