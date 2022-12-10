@@ -61,7 +61,7 @@ public class TestBaseClass {
 			 System.out.println("Please Provide Correct Browser");
 		 }
 		 
-		 driver.get("");
+		 driver.get("https://neostox.com/");
 		 driver.manage().window().maximize();
 		 driver.manage().deleteAllCookies();
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
